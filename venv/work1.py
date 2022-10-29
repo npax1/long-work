@@ -1,5 +1,12 @@
-def is_prime(a):
-    b=a*a*a
-    print(b)
+
 a = int(input("Enter a number: "))
-print(is_prime(a))
+b = int(input("Enter a number2: "))
+def bigger(a, b):
+    if a>b:
+        return a
+    elif a<b:
+        return b
+    else:
+        return false
+
+bigger()
