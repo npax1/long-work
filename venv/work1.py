@@ -1,7 +1,8 @@
+def is_prime(a):
+    if a % a == 0 and a != 0:
+        return True
+    else:
+        return False
 
-def fac(n):
-    if n == 0 :
-        return
-    return fac (n- 1)*n
-
-print(fac ( 5 ))
+a = int(input("Enter a number: "))
+print(is_prime(a))
